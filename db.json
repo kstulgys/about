@@ -1,4 +1,97 @@
 {
-    "title": "JavaScript Engineer",
-    "projects": [{"id":1, "name":"yo", "description":"desc"}]
+  "basics": {
+    "name": "Karolis Stulgys",
+    "label": "JavScript Engineer",
+    "summary": "I’m a full stack web developer who loves working with open source technology. I work best at planning the architecture of web  applications and their development life cycles. I also love to get the community involved and have had much experience with building and organizing large open source groups. Specialties: React, Redux, Javascript - Full stack developer with lots of experience in lots of stuff",
+    "email": "karolis.stulgys@gmail.com",
+    "website": "https://imkarolis.com",
+    "location": { "city": "Vilnius", "countryCode": "LTU" },
+    "profiles": [
+      {
+        "network": "twitter",
+        "url": "https://twitter.com/imkarolis  ",
+        "username": "imkarolis"
+      },
+      {
+        "network": "github",
+        "username": "kstulgys",
+        "url": "https://github.com/kstulgys"
+      },
+      {
+        "network": "linkedIn",
+        "username": "kstulgys",
+        "url": "https://github.com/kstulgys"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "FreeCodeCamp",
+      "studyType": "Msc",
+      "area": "Computer Science",
+      "startDate": "2015-01-01",
+      "endDate": ""
+    },
+    {
+      "institution": "Vilnius Gediminas Technical University",
+      "studyType": "Msc",
+      "area": "Mechanical Engineering",
+      "startDate": "2009-09-01",
+      "endDate": "20014-05-01"
+    }
+  ],
+  // "references": [
+  //   {
+  //     "name": "Joey Flores, Co-founder and CEO of Earbits, Inc.",
+  //     "reference": "Thomas was hired as a lead developer and, upon the leaving of our co-founder took over as CTO of Earbits. Thomas is, hands down, one of those A Players you hear of companies dying to hire. He is incredibly smart, not just at code but about everything from classical music to Chinese language and culture. Thomas is great to work with and, as a well established contributor to open source projects and several successful ventures, commands the respect of engineers at all levels. I would suggest doing anything you can to have him on your team."
+  //   },
+  //   {
+  //     "name": "Yotam Rosenbaum, SVP of Operations, Earbits, Inc.",
+  //     "reference": "I've had the great pleasure of working with Thomas for the past three years at Earbits, and on a few side projects. Two years ago our CTO left on a moment's notice, Thomas saved our company by quickly stepping up to fill this role. He has been with our company through thick and thin and made serious personal sacrifices in order to help the company during tough times. He is a phenomenal hacker and a true team player. Highly recommended!"
+  //   },
+  //   {
+  //     "name": "Ryan Kirkman, Senior Software Engineer at Nerdwallet",
+  //     "reference": "Thomas is an extremely talented engineer with a very broad range of skills and experience. From being a thought leader in the front-end community via backbonetutorials.com and cdnjs.com, to designing and implementing the API for cdnjs.com, working with Thomas has been fantastic learning experience. Thomas is truly a full stack develop, and his work output is incredible. If there is any opportunity to work with Thomas, I take it. He is the definition of an A player."
+  //   },
+  //   {
+  //     "name": "Greg Davis",
+  //     "reference": "On Thomas Davis ... Hire this guy. Do not be fooled. Incredibly capable and fast. Plays well with others. Unbelievable at front-end work end programming but that is just the start. Visionary. Hire him before I do."
+  //   }
+  // ],
+  "skills": [
+    {
+      "name": "Frontend",
+      "keywords": ["HTML", "CSS", "JavaScript", "React", "Redux"]
+    },
+    { "name": "Backend", "keywords": ["Node", "PostgreSQL", "MongoDB"] }
+  ],
+  "work": [
+    {
+      "startDate": "2019-07",
+      "position": "JavaScript Engineer",
+      "company": "UserCentric",
+      "website": "https://userventric.com.au",
+      "summary": "An Australian Web development agency. Digital Strategy, User Experience Design, Development",
+      "highlights": [
+        "Worked with Postgres, Redis and Dynamodb for storage.",
+        "Hosted on a mixture of Heroku Apps and EC2 servers.",
+        "Caching by Fastly and Cloudflare",
+        "Hybrid app supported on all platforms"
+      ]
+    },
+    {
+      "endDate": "2019-06",
+      "startDate": "2016-03",
+      "position": "Engineering Software Consultant",
+      "company": "Central Innovation",
+      "website": "https://centralinnovation.com",
+      "summary": "An Australian Software, Hardware, Training, Recruitment, Sails company",
+      "highlights": [
+        "Worked with Postgres, Redis and Dynamodb for storage.",
+        "Hosted on a mixture of Heroku Apps and EC2 servers.",
+        "Caching by Fastly and Cloudflare",
+        "Hybrid app supported on all platforms"
+      ]
+    }
+  ]
 }
